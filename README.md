@@ -64,6 +64,12 @@ DB
   npm install @prisma/client
 * npx prisma init --datasource-provider sqlite
 
+CSS
+
+* npm install -D tailwindcss
+* npx tailwindcss init
+npx tailwindcss -i ./app/styles/input.css -o ./build/_assets/output.css --watch
+
 Auth
 
 * npm install bcrypt
